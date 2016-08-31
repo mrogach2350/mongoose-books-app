@@ -5,7 +5,7 @@ var BookSchema = new Schema({
   title: String,
   author: String,
   image: String,
-  releaseDate: Date
+  releaseDate: String
 });
 
 var Book = mongoose.model('Book', BookSchema);

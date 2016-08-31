@@ -19,6 +19,8 @@ app.use(express.static('public'));
 // body parser config to accept our datatypes
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// require mongoose
+ 
 
 
 ////////////////////
